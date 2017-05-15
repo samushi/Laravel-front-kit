@@ -1,0 +1,29 @@
+@keyframes spin-a {
+  0%   { @include rotate(90deg) }
+  0%  { @include rotate(90deg) }
+  50%  { @include rotate(180deg) }
+  75%  { @include rotate(270deg) }
+  100% { @include rotate(360deg) }
+}
+@keyframes spin-b {
+  0%   { @include rotate(90deg) }
+  25%  { @include rotate(90deg) }
+  25%  { @include rotate(180deg) }
+  75%  { @include rotate(270deg) }
+  100% { @include rotate(360deg) }
+}
+@keyframes spin-c {
+  0%   { @include rotate(90deg) }
+  25%  { @include rotate(90deg) }
+  50%  { @include rotate(180deg) }
+  50%  { @include rotate(270deg) }
+  100% { @include rotate(360deg) }
+}
+@keyframes spin-d {
+  0%   { @include rotate(90deg) }
+  25%  { @include rotate(90deg) }
+  50%  { @include rotate(180deg) }
+  75%  { @include rotate(270deg) }
+  75% { @include rotate(360deg) }
+  100% { @include rotate(360deg) }
+}

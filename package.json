@@ -1,0 +1,37 @@
+{
+  "name": "laravel-freepiker",
+  "version": "1.0.0",
+  "description": "Freepiker.com builded front end for laravel from Besim Dauti",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samushi/laravel-frontend.git"
+  },
+  "author": "Sami Maxhuni & Besim Dauti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samushi/laravel-frontend/issues"
+  },
+  "homepage": "https://github.com/samushi/laravel-frontend#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.11",
+    "gulp": "^3.9.1",
+    "gulp-banner": "^0.1.3",
+    "gulp-cache": "^0.4.6",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-filter": "^5.0.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-main-bower-files": "^1.6.2",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.1.2",
+    "path": "^0.12.7"
+  }
+}

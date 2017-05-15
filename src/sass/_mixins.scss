@@ -1,0 +1,26 @@
+@mixin calc($property, $expression) { 
+  #{$property}: -webkit-calc(#{$expression}); 
+  #{$property}: calc(#{$expression}); 
+} 
+@mixin placeholder {
+  &::-webkit-input-placeholder {@content}
+  &:-moz-placeholder           {@content}
+  &::-moz-placeholder          {@content}
+  &:-ms-input-placeholder      {@content}  
+}
+@mixin selection {
+    ::-moz-selection { @content; }
+    ::selection { @content; }
+}
+
+
+@mixin dev-menu-animation($top, $bottom, $ms){
+	background-size: 100% 200%;
+	background-image: linear-gradient(to top, $top 50%, $bottom 50%);
+	background-image: -moz-linear-gradient(to top, $top 50%, $bottom 50%);
+	background-image: -webkit-linear-gradient(to top, $top 50%, $bottom 50%);
+	background-image: -o-linear-gradient(to top, $top 50%, $bottom 50%);
+	background-image: -ms-linear-gradient(to top, $top 50%, $bottom 50%);
+
+	@include transition(background-position $ms);
+}
