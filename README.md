@@ -134,4 +134,10 @@ Bower
 npm install -g bower
 
 npm install bower --save-dev
+
+bower install jquery --save-dev
+
+bower install bootstrap --save-dev
+
+bower install font-awesome --save-dev
 ```
