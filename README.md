@@ -8,7 +8,6 @@ Gulp
 npm install -g gulp
 
 npm install gulp --save-dev
-
 ```
 
 Bower Files Merge
@@ -17,7 +16,6 @@ Bower Files Merge
 npm install -g gulp-main-bower-files
 
 npm install gulp-main-bower-files --save-dev
-
 ```
 
 Comass for SASS
@@ -26,7 +24,6 @@ Comass for SASS
 npm install -g gulp-compass
 
 npm install gulp-compass --save-dev
-
 ```
 
 Css Minify
@@ -35,7 +32,6 @@ Css Minify
 npm install -g gulp-minify-css
 
 npm install gulp-minify-css --save-dev
-
 ```
 
 Concat
@@ -44,7 +40,6 @@ Concat
 npm install -g gulp-concat
 
 npm install gulp-concat --save-dev
-
 ```
 
 Notify
@@ -53,7 +48,6 @@ Notify
 npm install -g gulp-notify
 
 npm install gulp-notify --save-dev
-
 ```
 
 Plumber
@@ -62,7 +56,6 @@ Plumber
 npm install -g gulp-plumber
 
 npm install gulp-plumber --save-dev
-
 ```
 
 Uglify for js Minify
@@ -71,7 +64,6 @@ Uglify for js Minify
 npm install -g gulp-uglify
 
 npm install gulp-uglify --save-dev
-
 ```
 
 Rename
@@ -80,7 +72,6 @@ Rename
 npm install -g gulp-rename
 
 npm install gulp-rename --save-dev
-
 ```
 
 Image Minify
@@ -89,7 +80,6 @@ Image Minify
 npm install -g gulp-imagemin
 
 npm install gulp-imagemin --save-dev
-
 ```
 
 Html Minify
@@ -98,7 +88,6 @@ Html Minify
 npm install -g gulp-htmlmin
 
 npm install gulp-htmlmin --save-dev
-
 ```
 
 Cache
@@ -107,7 +96,6 @@ Cache
 npm install -g gulp-cache
 
 npm install gulp-cache --save-dev
-
 ```
 
 Filter
@@ -116,7 +104,6 @@ Filter
 npm install -g gulp-filter
 
 npm install gulp-filter --save-dev
-
 ```
 
 Banner
@@ -125,7 +112,6 @@ Banner
 npm install -g gulp-banner
 
 npm install gulp-banner --save-dev
-
 ```
 
 Path
@@ -134,7 +120,6 @@ Path
 npm install -g path
 
 npm install path --save-dev
-
 ```
 
 Browser Sync
@@ -142,7 +127,6 @@ Browser Sync
 npm install -g browser-sync
 
 npm install browser-sync --save-dev
-
 ```
 
 Bower 
@@ -150,5 +134,4 @@ Bower
 npm install -g bower
 
 npm install bower --save-dev
-
 ```
