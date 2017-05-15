@@ -2,6 +2,7 @@
 
 How to intialize
 
+```
 npm install gulp --save-dev
 
 npm install gulp-main-bower-files --save-dev
@@ -33,3 +34,4 @@ npm install gulp-banner --save-dev
 npm install path --save-dev
 
 npm install browser-sync --save-dev
+```
