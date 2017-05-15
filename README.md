@@ -1,2 +1,3 @@
-# laravel-frontend
-Structure for build first front end
+## Laravel Project - Front End
+
+How to intialize
