@@ -59,7 +59,7 @@ var plumberErrorHandler = { errorHandler: notify.onError({
 
 // Compass for style
 gulp.task('compass', function(){
-	return gulp.src([config.srcDir + '/sass/builder.scss', config.srcDir + '/sass/responsive.scss'])
+	return gulp.src([config.srcDir + '/sass/style.scss', config.srcDir + '/sass/responsive.scss'])
 		   .pipe(plumber({
 		      errorHandler: function (error) {
 		        console.log(error.message);
